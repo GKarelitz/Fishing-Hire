@@ -1,11 +1,16 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
+    font-family: "adobe-garamond-pro",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
-
+h1 {
+	font-family: "adobe-garamond-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
 .navbar {
 	border-radius: 0px!important;
 	color: #fff;
@@ -48,9 +53,11 @@ li button {
 }
 
 #myModal {
-		margin-top: 50px;
+		padding-top: 100px;
 	}
 
+
+/* MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
 @media only screen and (max-width: 768px) {
  
 	#section1 {
