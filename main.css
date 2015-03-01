@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-brand img {
-	height: 25px;
+	height: 30px;
 }
 
 #section1 {
@@ -51,7 +51,7 @@ li button {
 		margin-top: 50px;
 	}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
  
 	#section1 {
 		padding-top: 100px;
@@ -64,14 +64,9 @@ li button {
 	height: 35px!important;
 	}
 
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-
-	li button {
-	padding: 0px 10px!important;
-	width: 100%!important;
-	height: 35px!important;
+	.navbar-brand img {
+		height: 30px!important;
+		margin-top: -5px;
 	}
 
 }
