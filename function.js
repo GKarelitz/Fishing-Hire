@@ -1,7 +1,5 @@
-$(document).ready(function() 
-{
-   $('#myTab a').click(function (e) {
-  	e.preventDefault()
-  	$(this).tab('show')
-	})
+
+
+$('.input-group.date').datepicker({
+    autoclose: true
 });

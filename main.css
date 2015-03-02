@@ -9,7 +9,7 @@ body {
 h1 {
 	font-family: "adobe-garamond-pro",sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 }
 .navbar {
 	border-radius: 0px!important;
@@ -23,13 +23,17 @@ h1 {
 
 #section1 {
 	padding-top: 10%;
-	padding-bottom: 15%;
+	padding-bottom: 5%;
 	background-color: #432232;
 	text-align: center;
 	color: #fff;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-top: 25px;
+}
+
+.headerhero {
+	margin-bottom: 10%;
 }
 
 #section2 {
@@ -108,6 +112,7 @@ li button {
 
 
 
+
 /* MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
 @media only screen and (max-width: 768px) {
  
@@ -127,10 +132,20 @@ li button {
 		margin-top: -5px;
 	}
 
+	input, .form-inline .input-group, select {
+		margin-bottom: 5px;
+	}
+
+	.btn-primary {
+		width: 100%;
+	}
+
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-
+@media only screen and (min-width: 768px) {
+	#InputLocation {
+		width: 25%;
+	}
 }
 
 @media only screen and (min-width: 959px) {
