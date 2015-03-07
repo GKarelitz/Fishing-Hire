@@ -48,6 +48,11 @@ input, select, #mainbtn {
 	width: 100%!important;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	cursor: pointer;
+}
+
+.form-control[readonly] {
+	background-color: #ffffff!important;
 }
 
 .form-inline .input-group {
@@ -188,6 +193,10 @@ li button {
 
 	.mainbtn {
 		width: 100%;
+	}
+
+	.form-control[readonly] {
+	background-color: #ffffff!important;
 	}
 
 }
